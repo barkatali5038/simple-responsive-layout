@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        .container{
+            /* display: flex; */
+            display: grid;
+             /* grid-template-columns: 100px 200px 400px 200px;   */
+            /* grid-template-columns: repeat(2, 100px) 200px 150px; 
+            */
+            /* grid-template-columns: repeat(4, 1fr) 2fr; */
+            /* grid-template-columns: 100px auto 200px; */
+            grid-template-columns: 100px 100px 200px;
+            justify-content: space-around;
+        }
+        .item{
+            display: block;
+            border: 2px solid red;
+        }
+
+    </style>
+</head>
+<body>
+    <h2> Explore Grid Layout: 2D layout</h2>
+    <div class="container">
+
+        <!-- i.item{item - $}*20 -->
+        <i class="item">item - 1</i>
+        <i class="item">item - 2</i>
+        <i class="item">item - 3</i>
+        <i class="item">item - 4</i>
+        <i class="item">item - 5</i>
+        <i class="item">item - 6</i>
+        <i class="item">item - 7</i>
+        <i class="item">item - 8</i>
+        <i class="item">item - 9</i>
+        <i class="item">item - 10</i>
+        <i class="item">item - 11</i>
+        <i class="item">item - 12</i>
+        <i class="item">item - 13</i>
+        <i class="item">item - 14</i>
+        <i class="item">item - 15</i>
+        <i class="item">item - 16</i>
+        <i class="item">item - 17</i>
+        <i class="item">item - 18</i>
+        <i class="item">item - 19</i>
+        <i class="item">item - 20</i>
+
+
+    </div>
+</body>
+</html>
